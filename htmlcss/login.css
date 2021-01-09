@@ -1,0 +1,42 @@
+
+body {
+    background: #ff5619;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bonvoyage {
+    position: relative;
+    top: 250px;
+    width: 60%;
+    height: 80%;
+}
+.login {
+    border-radius: 5px;
+    font-size: 1.1rem;
+    position: relative;
+    top: 350px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: white;
+    font-family: 'Oswald', sans-serif;
+    border-style: none;
+    color: #ff5619;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signup {
+    border-radius: 5px;
+    font-size: 1.1rem;
+    position: relative;
+    top: 360px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #ff5619;
+    font-family: 'Oswald', sans-serif;
+    border-style: none;
+    color: white;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
