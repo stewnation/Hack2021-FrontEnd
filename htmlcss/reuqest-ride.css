@@ -46,11 +46,7 @@ header {
 .btn-orange {
     border-radius: 5px;
     font-size: 1.1rem;
-    position: relative;
-    top: 360px;
     padding: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
     background: #ff5619;
     font-family: 'Oswald', sans-serif;
     border-style: none;
