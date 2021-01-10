@@ -6,12 +6,13 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 .bonvoyage {
     position: relative;
     top: 250px;
-    width: 60%;
-    height: 80%;
+    width: 65%;
 }
+
 .login {
     border-radius: 5px;
     font-size: 1.1rem;
@@ -26,6 +27,7 @@ body {
     color: #ff5619;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .signup {
     border-radius: 5px;
     font-size: 1.1rem;
