@@ -1,0 +1,72 @@
+body {  
+    font-family: 'Oswald', sans-serif;
+    background-color: white;  
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* voyage_white 1 */
+.bonvoyage {
+    position: relative;
+    top: 0px;
+    width: 65%;
+}
+
+h2 {
+    position: relative;
+    top: -10px;
+    color: #ff5619;
+    margin-bottom: 0px;
+}
+
+h5 {
+    color: #ff5619;
+    font-size: 1.0rem;
+    margin-top: -5px;
+}
+
+.container {
+    position: relative;
+    top: -10px;
+    width: 300px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    
+    color: #ff5619;
+    margin-bottom: 5px;
+    font-size: 1.15rem;
+}
+
+input {
+    background:white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.signup {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    background-color: #ff5619;
+}
+
+.imgtag {
+    background-color: #ff5619;
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

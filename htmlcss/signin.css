@@ -1,5 +1,4 @@
-body {  
-    font-family: Calibri, Helvetica, sans-serif;  
+body {    
     background-color: #ff5619;  
     margin: 0px;
     display: flex;
@@ -39,12 +38,7 @@ button:hover {
     opacity: 0.7;   
 } 
 
-.cancelbtn {   
-    width: auto;   
-    padding: 10px 18px;  
-    margin: 10px 5px;  
-}   
-    
+
 .container {   
     position: relative;
     top: 350px;
@@ -52,10 +46,6 @@ button:hover {
     height: 500px;
     background-color: white;  
 }  
- 
-input[type=checkbox] {
-
-}
 
 form {
     position: relative;
