@@ -33,7 +33,7 @@ h5 {
     width: 300px;
 }
 
-form {
+.fm {
     width: 100%;
     display: flex;
     flex-direction: column;
