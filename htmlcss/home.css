@@ -1,5 +1,7 @@
 body {
     margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
 }
 
 header {
@@ -24,6 +26,45 @@ header {
 
 .token {
     height: 30px;
+}
+
+.button-container {
+    margin: 20% 0 0 0;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5619;
+    color: white;
+    margin: 20px 40px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.person-icon {
+    height: 50px;
+}
+
+.car-icon {
+    height: 40px;
+}
+
+.card-text {
+    margin: 10px 0 0 0;
+}
+
+.card-token-container {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 0 0;
+}
+
+.card-token {
+    height: 25px;
 }
 
 .btn-white {

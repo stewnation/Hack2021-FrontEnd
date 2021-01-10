@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-   <link href="template.css" rel="stylesheet">  <!-- be sure to change the css link to the page your working on -->
-    <title>Template</title>
+    <link href="home.css" rel="stylesheet">  
+    <title>Home</title>
 </head>
 <header>
-    <img src="../Logos/bon_white.png" alt="Logo" class="logo">
+    <a href="home.html"><img src="../Logos/bon_white.png" alt="Logo" class="logo"></a>
     <p class="header-text">Username</p>
     <img src="../Logos/token.png" class="token">
     <p class="header-text">1</p>
 </header>
 <body>
-    
+    <div class="button-container">
+        <div class="button-box" onclick="location.href='./request-ride.html';">
+            <img src="../Logos/person_white.png" class="person-icon">
+            <p class="card-text">REQUEST A RIDE</p>
+            <div class="card-token-container">
+                <img src="../Logos/token.png" class="card-token">
+                <p style="margin: 0 5px; font-size: .8em">- 1</p>
+            </div>
+        </div>
+        <div class="button-box" onclick="location.href='./request-ride.html';">
+            <img src="../Logos/car_white.png" class="car-icon">
+            <p class="card-text">GIVE A RIDE</p>
+            <div class="card-token-container">
+                <img src="../Logos/token.png" class="card-token">
+                <p style="margin: 0 5px; font-size: .8em">+ 1</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
